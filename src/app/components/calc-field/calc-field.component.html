@@ -1,0 +1,32 @@
+<div class="calc-container">
+  <div class="result">
+    <app-display [displayValue]="displayValue"></app-display>
+  </div>
+  <div class="button-rows">
+    <div class="row">
+      <app-button display="7" (value)="getValue($event)"></app-button>
+      <app-button display="8" (value)="getValue($event)"></app-button>
+      <app-button display="9" (value)="getValue($event)"></app-button>
+      <app-button display="/" (value)="getValue($event)"></app-button>
+    </div>
+    <div class="row">
+      <app-button display="4" (value)="getValue($event)"></app-button>
+      <app-button display="5" (value)="getValue($event)"></app-button>
+      <app-button display="6" (value)="getValue($event)"></app-button>
+      <app-button display="*" (value)="getValue($event)"></app-button>
+    </div>
+    <div class="row">
+      <app-button display="1" (value)="getValue($event)"></app-button>
+      <app-button display="2" (value)="getValue($event)"></app-button>
+      <app-button display="3" (value)="getValue($event)"></app-button>
+      <app-button display="+" (value)="getValue($event)"></app-button>
+    </div>
+    <div class="row">
+      <app-button display="0" (value)="getValue($event)"></app-button>
+      <app-button display="C" (value)="getValue($event)"></app-button>
+      <app-button display="=" (value)="getValue($event)"></app-button>
+      <app-button display="-" (value)="getValue($event)"></app-button>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,10 @@
+.display-container{
+    border: 1px solid black;
+    height: 50px;
+    width: 90% auto;
+    margin: 5px;
+    text-align: right;
+    padding: 5px;
+    font-size: 32px;
+
+}

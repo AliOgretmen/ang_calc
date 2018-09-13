@@ -1,0 +1,14 @@
+.calc-container{
+    border: 1px solid black;
+    width: 260px;
+    height: 340px;
+    background-color: aliceblue;
+
+}
+.button-rows{
+    margin: 5px;
+}
+.row{
+    display: flex;
+    margin: 5px;
+}
